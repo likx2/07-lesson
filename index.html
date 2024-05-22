@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li>
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact form</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero" aria-label="hero">
+        <div class="hero-wrapper">
+          <div class="hero-text">
+            <h1>Hey, my name is Lev and I am a web developer</h1>
+            <a class="cta cta-primary hero-cta" href="#contact">Conctact me</a>
+          </div>
+        </div>
+        <div class="hero-img-container">
+          <img
+            class="hero-img"
+            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3280&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Portfolio picture"
+          />
+        </div>
+      </section>
+      <section aria-label="about" id="about">
+        <h2>About</h2>
+        <img
+          src="jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+          alt="profile-photo"
+          width="400"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam
+          quo eum ratione quaerat, id exercitationem et dolorum, perspiciatis
+          nisi harum dicta nostrum error expedita adipisci laudantium optio,
+          vitae facilis tenetur nobis repellat fugit amet alias necessitatibus?
+          Omnis amet sint nemo sapiente aliquam aperiam in facere! Excepturi
+          libero in molestias consequatur maxime magnam iure amet. Ullam quia
+          dolorem sequi necessitatibus quisquam? Omnis ducimus non modi dicta
+          nesciunt deserunt tempora vero, temporibus corrupti voluptatum eos
+          tenetur esse ex saepe repellendus quos quis fuga ipsum sunt. Alias aut
+          laborum eveniet culpa iure, eaque debitis sapiente nostrum pariatur
+          sunt aliquid non delectus in.
+        </p>
+      </section>
+      <section aria-label="services" id="services">
+        <h2>Services</h2>
+        <h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+          ex aspernatur eos iure possimus debitis odio optio! Exercitationem,
+          dolores eveniet repellat sed ad consequuntur excepturi quidem facilis
+          sequi repellendus, eius, consectetur commodi doloribus eligendi!
+          Accusamus eligendi quidem nostrum at, nulla laborum a, velit rerum
+          dicta architecto voluptatem. Qui, alias unde?
+        </h3>
+        <div>
+          <articles>
+            <img src="browser.png" alt="landing-page" />
+            <h4>Landing Page</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quibusdam explicabo accusamus voluptates minima distinctio
+              voluptatibus et, debitis dolor similique.
+            </p>
+          </articles>
+          <articles>
+            <img src="" alt="personal-blog" />
+            <h4>Personal Blog</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quibusdam explicabo accusamus voluptates minima distinctio
+              voluptatibus et, debitis dolor similique.
+            </p>
+          </articles>
+          <articles>
+            <img src="" alt="web-design" />
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              quibusdam explicabo accusamus voluptates minima distinctio
+              voluptatibus et, debitis dolor similique.
+            </p>
+          </articles>
+        </div>
+      </section>
+      <section aria-label="contact" id="contact">
+        <h2>Get in touch</h2>
+        <form
+          action="https://formsubmit.co/konopajew86@gmail.com"
+          method="POST"
+        >
+          <label for="name">Name</label>
+          <input
+            id="name"
+            name="Name"
+            placeholder="ex. Alex"
+            required
+            minlength="2"
+          />
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="Email"
+            placeholder="alex@gmail.com"
+            required
+            pattern="test"
+          />
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            minlength="10"
+            maxlength="200"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <!-- footer -->
+  </body>
+</html>

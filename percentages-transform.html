@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div,
+      p {
+        border: 1px solid black;
+      }
+
+      div {
+        width: 300px;
+        height: 100px;
+      }
+
+      div p {
+        width: 50%; /* calculated: 150px */
+        transform: translateX(10%); /* calculated: 15px */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        The transform is calculated from the elements width, which is 50% of the
+        container’s width.
+      </p>
+    </div>
+  </body>
+</html>
