@@ -103,8 +103,12 @@ body {
     gap: 20px;
 }
 
+/* Added an img container to make an image fit only its width, not stretch the whole height as a flex-item */
+.about-img-container {
+    flex: 1;
+}
+
 .about-img {
-    max-width: 100%;
     @media screen and (max-width: 700px) {
         display: none;  
     }
